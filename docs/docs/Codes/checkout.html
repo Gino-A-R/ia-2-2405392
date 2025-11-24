@@ -1,0 +1,68 @@
+<!-- Name: Gino Robotham
+    ID: 2405392
+    Module: CIT2011 WEB PROGRAMMING
+    IA: 2 -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Medgician Pharma</title>
+        <link rel = "stylesheet" href = "style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
+
+
+    </head>
+    <div class="content-container">
+        <header>
+        <div class = "header-container">
+            <div class = "img-header">
+                <img src = "../Assets/MedgicianLogoWithText.svg" alt = "Medgician logo" class = "medgician-logo">
+            </div>
+            <div class = "navigation-header">
+                <nav>
+                    <a href = "index.html">Home</a>
+                    <a href = "products.html">Products</a>
+                    <a href = "aboutus.html">About Us</a>
+                </nav>
+            </div>
+        </div>
+        <hr>
+    </header>
+    <body>
+        <main>
+            <h2>Check Out</h2>
+            <div class = "checkout-container">
+                <h3>Items</h3>
+                <div id = "cart-items">
+                    
+                </div >
+
+                <div id = "company-info">
+                    
+                </div>
+
+                
+
+                <div id = "payment-entry">
+                    <input type = "radio" id = "credit" value = "credit" name = "payment">
+                    <label for = "credit"><span class="material-symbols-outlined">credit_card</span></label>
+                    <input type = "radio" id = "debit" value = "debit" name = "payment">
+                    <label for = "debit"><span class="material-symbols-outlined">payment_card</span></label>
+                    <input type = "radio" id = "check" value = "check" name = "payment">
+                    <label for = "check"><span class="material-symbols-outlined">checkbook</span></label>
+
+                </div>
+                <button id = "buy-button">Buy</button>
+            </div>
+            
+        </main>
+        <script src = "script.js"></script>
+    </body>
+    <footer>
+        <hr>
+        Copyright &copy; Medgician Pharma 2025
+    </footer>
+    </div>
+</html>

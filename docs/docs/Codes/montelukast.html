@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Medgician Pharma</title>
+        <link rel = "stylesheet" href = "style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=prescriptions" />
+    </head>
+    <div class = "content-container">
+        <header>
+            <div class = "header-container">
+            <div class = "img-header header-items">
+                <img src = "../Assets/MedgicianLogoWithText.svg" alt = "Medgician logo" class = "medgician-logo">
+            </div>
+            <div class = "navigation-header header-items">
+                <a href = "distributorportal.html"><button class = "distributor-portal-button" id = "distributor-button">Distributor Portal</button></a>
+                <nav>
+                    <a href = "index.html">Home</a>
+                    <a href = "products.html">Products</a>
+                    <a href = "aboutus.html">About Us</a>
+                    <a href = "cart.html" id = "cart-link">Cart</a>
+                </nav>
+            </div>
+            </div>
+            <hr>
+        </header>
+
+        <body>
+            <main>
+                <div class = "product-info-container">
+                    <div class = "product-img-dose">
+                        <img src = "../Assets/MedgicianLabels/Montelukast10mg.png" class = "image-of-product">
+                    </div>
+                    <div class = "product-description">
+                        <h2>Respiratory therapy</h2>
+                        <p>Montelukast is avaiable in 10mg with each bottle containing 1000 tablets</p>
+                        <p id = "product-price">$70</p>
+                        <button id = "cart-button" data-id="15">Add to cart</button>
+                    </div>
+                </div>
+            </main>
+
+            <script src = "script.js"></script>
+        </body>
+        <footer>
+            <hr>
+            Copyright &copy; Medgician Pharma 2025
+        </footer>
+    </div>
+    
+</html>
